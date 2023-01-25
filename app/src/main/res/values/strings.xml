@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Online Book Store</string>
+    <string name="title_label">Title: </string>
+    <string name="title_hint">Title</string>
+    <string name="author_label">Author: </string>
+    <string name="author_hint">Author</string>
+    <string name="page_count_label">Page Count: </string>
+    <string name="page_count_hint">0</string>
+    <string name="isbn_label">ISBN: </string>
+    <string name="isbn_hint">ISBN</string>
+    <string name="publish_date_label">Published Date: </string>
+    <string name="publish_date_hint">1999/12/31</string>
+    <string name="status_label">Status: </string>
+    <string name="status_hint">Status</string>
+    <string name="categories_label">Categories: </string>
+    <string name="categories_hint">Categories</string>
+    <string name="description_label">Description: </string>
+    <string name="description_hint">Description</string>
+</resources>
