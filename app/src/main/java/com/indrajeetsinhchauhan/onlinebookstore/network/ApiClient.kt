@@ -4,7 +4,7 @@ import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
-const val BASEURL = "https://raw.githubusercontent.com/bvaughn/infinite-list-reflow-examples/master/books.json/"
+const val BASEURL = "https://api.github.com/users/"
 class ApiClient {
     companion object{
         private var retrofit:Retrofit?=null

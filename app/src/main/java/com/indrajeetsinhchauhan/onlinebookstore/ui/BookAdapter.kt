@@ -35,10 +35,10 @@ class BookAdapter : RecyclerView.Adapter<BookAdapter.BookViewHolder>() {
     override fun onBindViewHolder(holder: BookViewHolder, position: Int) {
         val item = data?.get(position)
         binding.tvBookTitle.text = item?.title
-        binding.tvAuthorName.text = item?.author
-        if (item?.avatar_url != null) {
+        binding.tvAuthorName.text = item?.authors
+        if (item?.thumbnailUrl != null) {
             Picasso.with(binding.root.context)
-                .load(item.avatar_url)
+                .load(item.thumbnailUrl)
                 .placeholder(R.drawable.ic_launcher_foreground)
                 .into(binding.imageView)
         } else {
